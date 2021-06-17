@@ -1,4 +1,4 @@
-<h2> Requisitos para rodar: <h2>
+<h2> Requisitos para rodar: </h2>
 
 Biblioteca socket:
 ```
@@ -24,4 +24,4 @@ Biblioteca time:
 pip install time
 
 ```
-Logicamente é necessário ter o python instalado.
+Logicamente é necessário ter o ***python*** instalado.
