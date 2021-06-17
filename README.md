@@ -1,35 +1,27 @@
 <h1 align = "center" > 🎮 Requisitos: </h1><br>
 
-🧪 Biblioteca Socket (Python):
-
+Biblioteca socket:
 ```
 
 pip install socket
 
 ```
-
-🧪 Biblioteca Colorama (Python):
-
+Biblioteca colorama:
 ```
 
 pip install colorama
 
 ```
-
-🧪 Biblioteca OS (Python):
-
+Biblioteca os:
 ```
 
 pip install os
 
 ```
-
-🧪 Biblioteca Time (Python):
-
+Biblioteca time:
 ```
 
 pip install time
 
 ```
-
-🐍 Também é necessário o **python** instalado.
+Logicamente é necessário ter o python instalado.
