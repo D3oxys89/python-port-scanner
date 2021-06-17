@@ -1,4 +1,4 @@
-<h1 align = "center" > 🎮 Requisitos: </h1><br>
+Requisitos para rodar:
 
 Biblioteca socket:
 ```
