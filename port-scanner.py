@@ -3,7 +3,7 @@ from colorama import Fore
 import os
 from time import sleep
 
-os.system('cls') #Limpando a tela.
+os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
 
 # ─────────────────────────────
 
@@ -16,7 +16,7 @@ def load():
                                           ─
     """)
     sleep(1)
-    os.system('cls')
+    os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
     print(Fore.LIGHTBLUE_EX + """
                                           ──
     
@@ -25,7 +25,7 @@ def load():
                                           ──
     """)
     sleep(1)
-    os.system('cls')
+    os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
     print(Fore.LIGHTCYAN_EX + """
                                           ───
 
@@ -34,7 +34,7 @@ def load():
                                           ────
     """)
     sleep(1)
-    os.system('cls')
+    os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
     print(Fore.LIGHTMAGENTA_EX + """
                                           ─────────
 
@@ -43,7 +43,7 @@ def load():
                                           ─────────
     """)
     sleep(1)
-    os.system('cls')
+    os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
     print(Fore.LIGHTYELLOW_EX + """
                                           ───────────
 
@@ -52,7 +52,7 @@ def load():
                                           ───────────
     """)
     sleep(1)
-    os.system('cls')
+    os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
     print(Fore.LIGHTWHITE_EX + """
                                           ───────────────────
     
@@ -61,7 +61,7 @@ def load():
                                           ────────────────────
     """)
     sleep(1)
-    os.system('cls')
+    os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
     print(Fore.RED + """
                                           ───────────────────────────────
 
@@ -74,10 +74,10 @@ load()
 sleep(2)
 os.system('cls')
 print(Fore.LIGHTCYAN_EX + "[*]" + Fore.RESET + " Welcome to Port Scanner.\n")
-host = input(Fore.LIGHTCYAN_EX + "[*]" + Fore.RESET + " Please, give me a IP (Enter a number or it may make a fatal error later.): ") #Recebendo a entrada do IP.
+host = input(Fore.LIGHTCYAN_EX + "[*]" + Fore.RESET + " Please, give me a IP (Enter a number or it may make a fatal error later.): ") #Receiving IP input.
 print(Fore.LIGHTCYAN_EX + "\n[*]" + Fore.RESET + " The IP is: " + host) 
 sleep(2)
-os.system('cls')
+os.system('clear') #If you have windows operating system change "clear" to "cls" and compile again.
 
 # ─────────────────────────────
 
@@ -90,5 +90,5 @@ for porta in range(1 , 65535):
         connect = s.connect_ex((ip , porta))
 
         if connect == 0:
-            print(Fore.LIGHTGREEN_EX + "[*]" + " A porta: " + porta + "está aberta.")
+            print(Fore.LIGHTGREEN_EX + "[*]" + " The port: " + porta + "is open.")
         s.close()
